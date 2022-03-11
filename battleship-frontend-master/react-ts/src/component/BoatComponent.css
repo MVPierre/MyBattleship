@@ -1,0 +1,23 @@
+.boatInformation {
+    border-radius: 10px;
+    border: solid 2px grey;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 0 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+img {
+    padding-right: 10px;
+}
+
