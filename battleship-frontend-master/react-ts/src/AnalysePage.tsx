@@ -4,10 +4,6 @@ import BoatComponent from "./component/BoatComponent";
 import Boat from "./model/BoatInterface";
 
 export class AnalysePage extends React.Component<any, {boats: Boat[]}>  {
-    constructor(props: any) {
-        super(props);
-    }
-
     render() {
         return (
             <div className='body'>
