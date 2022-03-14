@@ -14,7 +14,7 @@ export class AnalysePage extends React.Component<any, any>  {
         }
     }
     renderBoats() {
-        this.state.boats.forEach((boat: Boat) => {
+        return this.state.boats.forEach((boat: Boat) => {
             return (
                 <BoatComponent name={boat.name} coordonneesBack={{x:boat.coordonneesBack.x, y:boat.coordonneesBack.y}} coordonneesFront={{x:boat.coordonneesFront.x, y:boat.coordonneesFront.y}}/>
             );
