@@ -4,10 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
-import {createStore} from "@reduxjs/toolkit";
-import populateReducer from "./store";
+import store from "./store";
 
-const store = createStore(populateReducer);
+
 
 ReactDOM.render(
   <React.StrictMode>

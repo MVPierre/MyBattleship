@@ -1,5 +1,6 @@
 import Boat from "./model/BoatInterface";
 import Coord from "./model/CoordInterface";
+import {createStore} from "@reduxjs/toolkit";
 
 const initialState = {
     // other reducer parts here
@@ -18,4 +19,6 @@ function populateReducer(state: {boats: Boat[], bombs: Coord[]} = initialState, 
     }
 }
 
-export default populateReducer;
+const store = createStore(populateReducer);
+
+export default store;
